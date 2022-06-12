@@ -5,183 +5,249 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sprint - Bootcamp Practice - Bérenger Humeau</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
-<!--HEADER-->    
+    <!--HEADER-->
     <header>
-        <nav>
-        <a href="home ref"> <img src="Images/logo.png" alt="logo" /> </a>
-        <ul>
-          <li><a href="#home ref">HOME</a></li>
-          <li><a href="#pages ref">PAGES</a></li>
-          <li><a href="#about us ref">ABOUT US</a></li>
-          <li><a href="#services ref">SERVICES</a></li>
-          <li><a href="#portfolio us ref">PORTFOLIO</a></li>
-          <li><a href="#blog ref">BLOG</a></li>
-          <li><a href="#contact us ref">CONTACT US</a></li>
+      <nav>
+        <a href="home ref" class="logo">
+          <img src="Images/logo.png" alt="logo" />
+        </a>
+        <ul class="nav-list">
+          <li class="nav-list-item"><a href="#home ref">home</a></li>
+          <li class="nav-list-item"><a href="#pages ref">pages</a></li>
+          <li class="nav-list-item"><a href="#about us ref">about us</a></li>
+          <li class="nav-list-item"><a href="#services ref">services</a></li>
+          <li class="nav-list-item">
+            <a href="#portfolio us ref">portfolio</a>
+          </li>
+          <li class="nav-list-item"><a href="#blog ref">blog</a></li>
+          <li class="nav-list-item">
+            <a href="#contact us ref">contact us</a>
+          </li>
         </ul>
       </nav>
-      <h5>DESIGN / DEVELOPMENT / BRANDING</h5>
-      <h1>SPRINT TRUE MINIMAL THEME</h1>
+      <section class="header-img">
+        <img
+          src="Images/slide-1.jpg"
+          class="background-img"
+          alt="background image for the header part"
+        />
+        <article class="header-txt">
+          <h5>design / devlopment / branding</h5>
+          <h1>sprint true minimal theme</h1>
+        </article>
+      </section>
     </header>
 
-<!--SECTION 1 -- ABOUT -->    
-    <section class="white-background">
-        <article class="titleSection">
-            <h2>ABOUT OUR AGENCY</h2>
-            <p>He's a demon on wheels. The mate was a mighty sailin' man the Skipper brave and sure. Five passengers set sail that day for a three hour tour a three hour tour the ship set ground on the shore of this uncharted</p>
-        </article>
-        <article>
-            <img src="Images/about-img-1.jpg" alt="Who we are image">
-            <h3>WHO WE ARE</h3>
-            <p>Can you tell me how to get how to get to SesaStreet. Now the world don't move to the beat of just one um. What might be right for you the.</p>
-        </article>
-        <article>
-            <img src="Images/about-img-2.jpg" alt="Our mission image">
-            <h3>OUR MISSION</h3>
-            <p>Can you tell me how to get how to get to SesaStreet. Now the world don't move to the beat of just one um. What might be right for you the.</p>
-        </article>
-        <article>
-            <img src="Images/about-img-3.jpg" alt="Our vision image">
-            <h3>OUR VISION</h3>
-            <p>Can you tell me how to get how to get to SesaStreet. Now the world don't move to the beat of just one um. What might be right for you the.</p>
-        </article>
-    </section>
-
-<!--SECTION 2 -- SERVICES -->    
-    <section class="grey-background">
-        <article class="titleSection">
-            <h2>SERVICES WHAT WE PROVIDE</h2>
-            <p>He's a demon on wheels. The mate was a mighty sailin' man the Skipper brave and sure. Five passengers set sail that day for a three hour tour a three hour tour the ship set ground on the shore of this uncharted</p>
-        </article>
-        <article>
-            <img src="Images/icon-1.png" alt="Icon Web Designing">
-            <h3>WEB DESIGNING</h3>
-            <hr>
-            <p>These are the voyages of the Starship Enterpr movin' on up to the east side. We finally got a piece of thepie.</p>
-        </article>
-        <article>
-            <img src="Images/icon-2.png" alt="Icon Web Development">
-            <h3>WEB DEVELOPMENT</h3>
-            <hr>
-            <p>These are the voyages of the Starship Enterpr movin' on up to the east side. We finally got a piece of thepie.</p>
-        </article>
-        <article>
-            <img src="Images/icon-3.png" alt="Icon Branding">
-            <h3>Branding</h3>
-            <hr>
-            <p>These are the voyages of the Starship Enterpr movin' on up to the east side. We finally got a piece of thepie.</p>
-        </article>
-        <article>
-            <img src="Images/icon-4.png" alt="Icon Photography">
-            <h3>PHOTOGRAPHY</h3>
-            <hr>
-            <p>These are the voyages of the Starship Enterpr movin' on up to the east side. We finally got a piece of thepie.</p>
-        </article>
-        <article>
-            <img src="Images/icon-5.png" alt="Icon Digital Marketing">
-            <h3>DIGITAL MARKETING</h3>
-            <hr>
-            <p>These are the voyages of the Starship Enterpr movin' on up to the east side. We finally got a piece of thepie.</p>
-        </article>
-        <article>
-            <img src="Images/icon-6.png" alt="Icon Web Analytics">
-            <h3>WEB ANALYTICS</h3>
-            <hr>
-            <p>These are the voyages of the Starship Enterpr movin' on up to the east side. We finally got a piece of thepie.</p>
-        </article>
-    </section>
-
-    <!--SECTION 3 -- WHY CHOOSE US -- for later as it includes some js-->    
+    <!--SECTION 1 -- ABOUT -->
     <section>
-        <article></article>
-        <article></article>
-        <article></article>
+      <div class="title-section">
+        <h2>ABOUT OUR AGENCY</h2>
+        <p>
+          He's a demon on wheels. The mate was a mighty sailin' man the Skipper
+          brave and sure. Five passengers set sail that day for a three hour
+          tour a three hour tour the ship set ground on the shore of this
+          uncharted
+        </p>
+      </div>
+      <div class="about-block">
+        <article class="about-content">
+          <img src="Images/about-img-1.jpg" alt="Who we are image" />
+          <h3>WHO WE ARE</h3>
+          <p>
+            Can you tell me how to get how to get to SesaStreet. Now the world
+            don't move to the beat of just one um. What might be right for you
+            the.
+          </p>
+        </article>
+        <article class="about-content">
+          <img src="Images/about-img-2.jpg" alt="Our mission image" />
+          <h3>OUR MISSION</h3>
+          <p>
+            Can you tell me how to get how to get to SesaStreet. Now the world
+            don't move to the beat of just one um. What might be right for you
+            the.
+          </p>
+        </article>
+        <article class="about-content">
+          <img src="Images/about-img-3.jpg" alt="Our vision image" />
+          <h3>OUR VISION</h3>
+          <p>
+            Can you tell me how to get how to get to SesaStreet. Now the world
+            don't move to the beat of just one um. What might be right for you
+            the.
+          </p>
+        </article>
+      </div>
     </section>
 
-    <!--SECTION 4 -- PORTFOLIO -->    
-    <section class="white-background">
-        <article class="titleSection">
-            <h2>OUR LATEST WORKS</h2>
-            <p>He's a demon on wheels. The mate was a mighty sailin' man the Skipper brave and sure. Five passengers set sail that day for a three hour tour a three hour tour the ship set ground on the shore of this uncharted</p>
+    <!--SECTION 2 -- SERVICES -->
+    <section class="grey-background services-section">
+      <article class="title-section">
+        <h2>SERVICES WHAT WE PROVIDE</h2>
+        <p>
+          He's a demon on wheels. The mate was a mighty sailin' man the Skipper
+          brave and sure. Five passengers set sail that day for a three hour
+          tour a three hour tour the ship set ground on the shore of this
+          uncharted
+        </p>
+      </article>
+      <div class="services-block">
+        <article class="services-content">
+          <img src="Images/icon-1.png" alt="Icon Web Designing" />
+          <h3>WEB DESIGNING</h3>
+          <hr />
+          <p>
+            These are the voyages of the Starship Enterpr movin' on up to the
+            east side. We finally got a piece of thepie.
+          </p>
         </article>
-        <article>
-            <img src="Images/folio-img-1.jpg" alt="First portfolio image">
-            <!-- hover section-->
-            <section class="hover-portfolio">
-                <a href="#"> <img src="" alt="Link logo" /> </a>
-                <p>Awesome project</p>
-            </section>
+        <article class="services-content">
+          <img src="Images/icon-2.png" alt="Icon Web Development" />
+          <h3>WEB DEVELOPMENT</h3>
+          <hr />
+          <p>
+            These are the voyages of the Starship Enterpr movin' on up to the
+            east side. We finally got a piece of thepie.
+          </p>
         </article>
-        <article>
-            <img src="Images/folio-img-2.jpg" alt="Second portfolio image">
-            <!-- hover section-->
-            <section class="hover-portfolio">
-                <a href="#"> <img src="" alt="Link logo" /> </a>
-                <p>Awesome project</p>
-            </section>
+        <article class="services-content">
+          <img src="Images/icon-3.png" alt="Icon Branding" />
+          <h3>Branding</h3>
+          <hr />
+          <p>
+            These are the voyages of the Starship Enterpr movin' on up to the
+            east side. We finally got a piece of thepie.
+          </p>
         </article>
-        <article>
-            <img src="Images/folio-img-3.jpg" alt="Third portfolio image">
-            <!-- hover section-->
-            <section class="hover-portfolio">
-                <a href="#"> <img src="" alt="Link logo" /> </a>
-                <p>Awesome project</p>
-            </section>
+        <article class="services-content">
+          <img src="Images/icon-4.png" alt="Icon Photography" />
+          <h3>PHOTOGRAPHY</h3>
+          <hr />
+          <p>
+            These are the voyages of the Starship Enterpr movin' on up to the
+            east side. We finally got a piece of thepie.
+          </p>
         </article>
-        <article>
-            <img src="Images/folio-img-4.jpg" alt="Fourth portfolio image">
-            <!-- hover section-->
-            <section class="hover-portfolio">
-                <a href="#"> <img src="" alt="Link logo" /> </a>
-                <p>Awesome project</p>
-            </section>
+        <article class="services-content">
+          <img src="Images/icon-5.png" alt="Icon Digital Marketing" />
+          <h3>DIGITAL MARKETING</h3>
+          <hr />
+          <p>
+            These are the voyages of the Starship Enterpr movin' on up to the
+            east side. We finally got a piece of thepie.
+          </p>
         </article>
-        <article>
-            <img src="Images/folio-img-5.jpg" alt="Fifth portfolio image">
-            <!-- hover section-->
-            <section class="hover-portfolio">
-                <a href="#"> <img src="" alt="Link logo" /> </a>
-                <p>Awesome project</p>
-            </section>
+        <article class="services-content">
+          <img src="Images/icon-6.png" alt="Icon Web Analytics" />
+          <h3>WEB ANALYTICS</h3>
+          <hr />
+          <p>
+            These are the voyages of the Starship Enterpr movin' on up to the
+            east side. We finally got a piece of thepie.
+          </p>
         </article>
-        <article>
-            <img src="Images/folio-img-6.jpg" alt="Sixth portfolio image">
-            <!-- hover section-->
-            <section class="hover-portfolio">
-                <a href="#"> <img src="" alt="Link logo" /> </a>
-                <p>Awesome project</p>
-            </section>
-        </article>
-        <article>
-            <img src="Images/folio-img-7.jpg" alt="Seventh portfolio image">
-            <!-- hover section-->
-            <section class="hover-portfolio">
-                <a href="#"> <img src="" alt="Link logo" /> </a>
-                <p>Awesome project</p>
-            </section>
-        </article>
-        <article>
-            <img src="Images/folio-img-8.jpg" alt="Eighth portfolio image">
-            <!-- hover section-->
-            <section class="hover-portfolio">
-                <a href="#"> <img src="" alt="Link logo" /> </a>
-                <p>Awesome project</p>
-            </section>
-        </article>
-        <article>
-            <h3>DO YOU WANT TO EXPLORE ALL OUR WORKS?</h3>
-            <button class="dark-btn">VIEW ALL WORKS</button>
-        </article>
+      </div>
     </section>
 
-    <!--SECTION 5 -- CONTACT BTN AND PURCHASE -->    
+    <!--SECTION 3 -- WHY CHOOSE US -- for later as it includes some js-->
     <section>
-        <h1>WE DO INNOVATIVE THINGS, SO THAT WE CAN CREATE AWESOME DESIGN</h1>
-        <button class="white-btn">CONTACT US</button>
-        <button>PURCHASE NOW</button>
+      <article></article>
+      <article></article>
+      <article></article>
+    </section>
+
+    <!--SECTION 4 -- PORTFOLIO -->
+    <section>
+      <article class="title-section">
+        <h2>OUR LATEST WORKS</h2>
+        <p>
+          He's a demon on wheels. The mate was a mighty sailin' man the Skipper
+          brave and sure. Five passengers set sail that day for a three hour
+          tour a three hour tour the ship set ground on the shore of this
+          uncharted
+        </p>
+      </article>
+      <div class="portfolio-block">
+        <article class="portfolio-content">
+          <img class="portfolio-img" src="Images/folio-img-1.jpg" alt="First portfolio image" />
+          <!-- hover section-->
+          <div class="hover-portfolio">
+            <a href="#"> <img class="link-icon" src="Images/link-icon.png" alt="Link logo" /> </a>
+            <p class="white-font">Awesome project</p>
+          </div>
+        </article>
+        <article class="portfolio-content">
+          <img class="portfolio-img" src="Images/folio-img-2.jpg" alt="Second portfolio image" />
+          <!-- hover section-->
+          <div class="hover-portfolio">
+            <a href="#"> <img class="link-icon" src="Images/link-icon.png" alt="Link logo" /> </a>
+            <p class="white-font">Awesome project</p>
+          </div>
+        </article>
+        <article class="portfolio-content">
+          <img class="portfolio-img" src="Images/folio-img-3.jpg" alt="Third portfolio image" />
+          <!-- hover section-->
+          <div class="hover-portfolio">
+            <a href="#"> <img class="link-icon" src="Images/link-icon.png" alt="Link logo" /> </a>
+            <p class="white-font">Awesome project</p>
+          </div>
+        </article>
+        <article class="portfolio-content">
+          <img class="portfolio-img" src="Images/folio-img-4.jpg" alt="Fourth portfolio image" />
+          <!-- hover section-->
+          <div class="hover-portfolio">
+            <a href="#"> <img class="link-icon" src="Images/link-icon.png" alt="Link logo" /> </a>
+            <p class="white-font">Awesome project</p>
+          </div>
+        </article>
+      </div>
+      <div class="portfolio-block">
+        <article class="portfolio-content">
+            <img class="portfolio-img" src="Images/folio-img-5.jpg" alt="Fifth portfolio image" />
+            <!-- hover section-->
+            <div class="hover-portfolio">
+              <a href="#"> <img class="link-icon" src="Images/link-icon.png" alt="Link logo" /> </a>
+              <p class="white-font">Awesome project</p>
+            </div>
+          </article>
+          <article class="portfolio-content">
+            <img class="portfolio-img" src="Images/folio-img-6.jpg" alt="Sixth portfolio image" />
+            <!-- hover section-->
+            <div class="hover-portfolio">
+              <a href="#"> <img class="link-icon" src="Images/link-icon.png" alt="Link logo" /> </a>
+              <p class="white-font">Awesome project</p>
+            </div>
+          </article>
+          <article class="portfolio-content">
+            <img class="portfolio-img" src="Images/folio-img-7.jpg" alt="Seventh portfolio image" />
+            <!-- hover section-->
+            <div class="hover-portfolio">
+              <a href="#"> <img class="link-icon" src="Images/link-icon.png" alt="Link logo" /> </a>
+              <p class="white-font">Awesome project</p>
+            </div>
+          </article>
+          <article class="portfolio-content">
+            <img class="portfolio-img" src="Images/folio-img-8.jpg" alt="Eighth portfolio image" />
+            <!-- hover section-->
+            <div class="hover-portfolio">
+              <a href="#"> <img class="link-icon" src="Images/link-icon.png" alt="Link logo" /> </a>
+              <p class="white-font">Awesome project</p>
+            </div>
+      </div>
+      <article class="portfolio-explore">
+        <h3 class="portfolio-explore-text">Do you want to explore all our works?</h3>
+        <button class="dark-btn"> <a href="#">View all works</a></button>
+      </article>
+    </section>
+
+    <!--SECTION 5 -- CONTACT BTN AND PURCHASE -->
+    <section class="contact-purchase-btn">
+      <h1>We do innovative things, so that we can create awesome design</h1>
+      <button class="white-btn">Contact us</button>
+      <button class="dark-btn">Purchase now</button>
     </section>
   </body>
 </html>

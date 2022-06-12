@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;1,100&family=Roboto+Condensed:wght@700&family=Roboto:wght@100;300;700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.background-img {
+  width: 100%;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+button{
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 2.3125rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+h4{
+    font-size: 1.625rem;
+    text-transform: uppercase;
+}
+
+h5{
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+hr{
+    border-top: 2px solid black;
+    margin-left: 0;
+    width: 35px;
+}
+
+p{
+    color: #989898;
+}
+
+ul {
+  padding: 0;
+}
+
+/*---------------------------------GENERAL CLASS AND ID---------------------------------*/
+.dark-btn{
+    background-color: #333333;
+    border: 1px solid #333333;
+    color: white;
+    height: 2.5rem;
+    width: 10rem;
+}
+
+.white-btn{
+    background-color: white;
+    border: 1px solid #333333;
+    color: black;
+    height: 2.5rem;
+    width: 10rem;
+}
+
+.grey-background{
+    background-color: #fbfbfb;
+}
+
+.title-section{
+    margin: 0rem auto;
+    padding: 4rem 0;
+    text-align: center;
+    width: 70%;
+}
+
+.white-font{
+    color: white;
+}
+
+/*---------------------------------HEADER---------------------------------*/
+.header-img{
+    position: relative;
+}
+
+.header-txt{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.nav-list {
+  font-size: 0.8rem;
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+}
+
+.nav-list-item {
+  margin-right: 1rem;
+}
+
+/*---------------------------------SECTION 1 - ABOUT---------------------------------*/
+.about-block{
+    display: flex;
+    align-content: space-around;
+    margin: 0 3%;
+}
+
+.about-content{
+    margin: 1rem 1rem 5rem 1rem;
+}
+
+
+/*-------------------------------SECTION 2 - SERVICES-------------------------------*/
+.services-block{
+    display: grid;
+    grid-template-columns: 21rem 21rem 21rem;
+    margin: 0 17rem;
+}
+
+.services-content{
+    margin: 1rem;
+}
+
+.services-section{
+    padding-bottom: 5rem;
+}
+
+/*-------------------------------SECTION 3 - WHY CHOOSE US-------------------------------*/
+
+
+/*---------------------------------SECTION 4 - PORTFOLIO---------------------------------*/
+.hover-portfolio{
+    background-color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.50s;
+}
+
+.hover-portfolio:hover{
+    opacity: 1;
+}
+
+.link-icon:hover{
+    filter: invert(100%);
+}
+
+.link-icon{
+    background-color: white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.portfolio-block{
+    display: flex;
+    margin: 0 3.5rem;
+}
+
+.portfolio-content{
+    margin: 1rem;
+    position: relative;
+}
+
+.portfolio-explore{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.portfolio-explore-text{
+    margin: 4rem 15rem;
+}
+
+.portfolio-img{
+    max-width: 21rem;
+    height: auto;
+    position: relative;
+}
+
+.portfolio-explore .dark-btn:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+
+/*---------------------------SECTION 5 - CONTACT BTN AND PURCHASE-------------------------*/
+.contact-purchase-btn{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-purchase-btn .white-btn{
+    display: inline-block;
+    margin: 2rem 2rem 4rem 2rem;
+}
+
+.contact-purchase-btn .dark-btn{
+    display: inline-block;
+    margin: 2rem 2rem 4rem 2rem;
+}
